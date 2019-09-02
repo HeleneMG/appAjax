@@ -1,0 +1,67 @@
+body, html{
+    width: 100%;
+    margin:0;
+    padding:0;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Bungee Inline', cursive;
+}
+h1 a:hover{
+    text-decoration: none;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+#userInput, #userInputYear{
+    width: 25%;
+    min-width: 200px;
+    margin: 10px auto 0px auto;
+}
+.boutons{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#userSend, #userReset{
+    width: 7%;
+    min-width: 90px;
+    margin: 5px ;
+}
+
+#listMovies{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 43px auto;
+}
+#listMovies > *{
+    width:calc(90% / 4);
+    min-width: calc(100% / 4);
+    padding: 10px;
+    flex-wrap: wrap;
+}
+#title{
+    padding: 10px;
+    font-family: 'Hepta Slab', serif;
+    font-size: 18px;
+    height: 65px;
+}
+p{
+    margin-left: 10px;
+    border-top: solid 0.5px rgb(199, 199, 199);  
+}
+img{
+    object-fit: cover;
+    height:400px;
+    width: 273px;
+    min-height: 200;
+    min-width: 150px;
+}
+
